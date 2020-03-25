@@ -1,4 +1,3 @@
 ### Omnistack week
 
-Creating an app for orgs.
-Stack, Typescript, nodeJs, React and React Native
+Creating an app for orgs. Stack using Typescript, nodeJs, React and React Native
