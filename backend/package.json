@@ -4,22 +4,21 @@
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon",
-    "start": "ts-node ./src/"
+    "dev:server": "ts-node-dev --respawn --transpileOnly ./src/"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@types/express": "^4.17.3",
     "@typescript-eslint/eslint-plugin": "^2.25.0",
     "@typescript-eslint/parser": "^2.25.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
     "jest": "^25.1.0",
-    "nodemon": "^2.0.2",
     "prettier": "^2.0.2",
-    "ts-node": "^8.8.1",
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
   }
 }
